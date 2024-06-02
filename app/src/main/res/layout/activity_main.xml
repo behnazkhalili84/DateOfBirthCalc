@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/bgColor"
+        android:padding="16dp">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALCULATE YOUR"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" android:textSize="26sp" android:layout_marginTop="16dp"
+            app:layout_constraintVertical_bias="0.076" android:textColor="@color/blue"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="AGE"
+            android:background="@color/blue"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" android:textSize="26sp" android:layout_marginTop="16dp"
+            app:layout_constraintVertical_bias="0.076" android:textColor="@color/white"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IN MINUTES"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" android:textSize="26sp" android:layout_marginTop="16dp"
+            app:layout_constraintVertical_bias="0.076" android:textColor="@color/lightGrey"/>
+    <Button
+            android:text="SELECT DATE"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/btnBgColor"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content" android:id="@+id/btnDatePicker"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="31.05.1988"
+            android:background="@color/blue"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" android:textSize="25sp" android:layout_marginTop="16dp"
+            app:layout_constraintVertical_bias="0.076" android:textColor="@color/white"
+            android:id="@+id/tvSelectedDate"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected Data"
+            android:background="@color/lightGrey"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" android:textSize="20sp" android:layout_marginTop="16dp"
+            app:layout_constraintVertical_bias="0.076" android:textColor="@color/white"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14000000"
+            android:background="@color/blue"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" android:textSize="35sp" android:layout_marginTop="16dp"
+            app:layout_constraintVertical_bias="0.076" android:textColor="@color/white" android:id="@+id/AgeInMinute"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected Data"
+            android:background="@color/lightGrey"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" android:textSize="20sp" android:layout_marginTop="16dp"
+            app:layout_constraintVertical_bias="0.076" android:textColor="@color/white"/>
+
+</LinearLayout>
